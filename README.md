@@ -18,7 +18,7 @@ Cenário 4: aluno fez a SUB e conseguiu recuperar a nota.
 
 Cenário 5: aluno só fez atividades extras (X) e API.
 
-📌- [Atividade 1 – Teste de Mesa (PDF)](docs/Exercicio_1_TesteDeMesa.pdf)
+📌- [Atividade 1 – Teste de Mesa (PDF)](Exercicio_1_TesteDeMesa.pdf)
 
 📊 Cada cenário foi calculado manualmente no teste de mesa e depois validado no programa em Java (atividade 7).
 
@@ -29,7 +29,7 @@ Música escolhida: “Meio Psicopata” – Matanza
 
 A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 
-📌 - [Diagrama da Música](imagens/Atividade2_musica.png)
+📌 - [Diagrama da Música](Atividade2_musica.png)
 
 🖼️ Atividade 3 – Imagem (Vik Muniz)
 
@@ -41,8 +41,8 @@ Obras escolhidas:
 
 Para cada obra, foram criadas 3 classes representando elementos principais.
 
-📌 - [Diagrama Vik Muniz](imagens/Atividade3_VikMuniz_che.png).
-📌 - [Diagrama Vik Muniz](imagens/Atividade3_VikMuniz_mona.png).
+📌 - [Diagrama Vik Muniz](Atividade3_VikMuniz_che.png).
+📌 - [Diagrama Vik Muniz](Atividade3_VikMuniz_mona.png).
 
 🎨 Atividade 4 – Imagem (Doodle)
 
@@ -50,7 +50,7 @@ Imagem escolhida: Picnik Poster (Mauro Martins) 🌍
 
 Classes criadas:
 
-📌 - [Diagrama Doodle](imagens/Atividade4_Doodle_picnikPoster.png).
+📌 - [Diagrama Doodle](Atividade4_Doodle_picnikPoster.png).
 
 🎬 Atividade 5 – Vídeo
 
@@ -58,7 +58,7 @@ Vídeo escolhido: “Contra-Filé" - Pedro Luá 🚀
 
 Classes criadas:
 
-📌- [Diagrama Vídeo](imagens/video.png).
+📌- [Diagrama Vídeo](video.png).
 
 
 💻 Atividade 6 – Publicação
