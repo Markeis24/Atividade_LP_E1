@@ -75,7 +75,7 @@ Aplica a fórmula de cálculo da média.
 
 Exibe o resultado.
 
-📌- [TestedeMesa.java](atividade7/TesteMesa.java)
+📌- [TestedeMesa.java](atividade7/src/TestedeMesa)
 
 
 ☕ Atividade 8 – Classes Java (Música, Imagem e Vídeo)
