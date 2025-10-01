@@ -74,12 +74,13 @@ Lê as notas implementado dentro do código.
 Aplica a fórmula de cálculo da média.
 
 Exibe o resultado.
-
+📌- [TestedeMesa.java](src/TestedeMesa/TesteMesa.java)
 
 
 ☕ Atividade 8 – Classes Java (Música, Imagem e Vídeo)
 
 Todas as classes criadas nas atividades 2 a 5 foram implementadas em Java.
+📌- [Implementação java](Atividade8)
 
 
 
