@@ -2,6 +2,7 @@
 
 Repositório criado para registrar as atividades práticas de Programação Orientada a Objetos, envolvendo teste de mesa, modelagem UML, implementação em Java e interfaces gráficas.
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 ✅ Atividade 1 – Teste de Mesa
@@ -12,6 +13,7 @@ Foram simulados 10 cenários diferentes usando a fórmula de cálculo da média.
 
 📊 Cada cenário foi calculado manualmente no teste de mesa e depois validado no programa em Java (atividade 7).
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 🎶 Atividade 2 – Música
@@ -22,6 +24,7 @@ A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 
 📌 - [Diagrama da Música](Atividades1_5/Atividade2_musica.png)
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 🖼️ Atividade 3 – Imagem (Vik Muniz)
@@ -35,8 +38,10 @@ Obras escolhidas:
 Para cada obra, foram criadas 3 classes representando elementos principais.
 
 📌 - [Diagrama Vik Muniz](Atividades1_5/Atividade3_VikMuniz_che.png).
+
 📌 - [Diagrama Vik Muniz](Atividades1_5/Atividade3_VikMuniz_mona.png).
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 🎨 Atividade 4 – Imagem (Doodle)
@@ -47,6 +52,7 @@ Classes criadas:
 
 📌 - [Diagrama Doodle](Atividades1_5/Atividade4_Doodle_picnikPoster.png).
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 🎬 Atividade 5 – Vídeo
@@ -57,12 +63,14 @@ Classes criadas:
 
 📌- [Diagrama Vídeo](Atividades1_5/Atividade5_video.png).
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 💻 Atividade 6 – Publicação
 
 Todo o material (códigos + diagramas UML + README) foi publicado neste repositório no GitHub.
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 ☕ Atividade 7 – Classe Java (Cálculo da Média)
@@ -77,6 +85,8 @@ Exibe o resultado.
 
 📌- [TestedeMesa.java](atividade7/src/TestedeMesa)
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 
 ☕ Atividade 8 – Classes Java (Música, Imagem e Vídeo)
 
@@ -84,6 +94,7 @@ Todas as classes criadas nas atividades 2 a 5 foram implementadas em Java.
 
 📌- [Implementação java](Atividade8)
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 🖥️ Atividade Extra – Interfaces Gráficas
@@ -94,6 +105,7 @@ Cada interface possui campos para entrada dos atributos e um botão Salvar.
 
 Ao clicar, o objeto é instanciado e os dados são gravados em um arquivo CSV.
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 🚀 Tecnologias Utilizadas
@@ -106,6 +118,7 @@ SceneBuilder – Interfaces gráficas
 
 GitHub – Versionamento e publicação
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 👩‍💻 Autor
