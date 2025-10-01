@@ -8,7 +8,7 @@ Repositório criado para registrar as atividades práticas de Programação Orie
 
 Foram simulados 10 cenários diferentes usando a fórmula de cálculo da média.
 
-📌- [Atividade 1 – Teste de Mesa (PDF)](Exercicio_1_TesteDeMesa.pdf)
+📌- [Atividade 1 – Teste de Mesa (PDF)](Atividades1_5/Exercicio_1_TesteDeMesa.pdf)
 
 📊 Cada cenário foi calculado manualmente no teste de mesa e depois validado no programa em Java (atividade 7).
 
@@ -20,7 +20,7 @@ Música escolhida: “Meio Psicopata” – Matanza
 
 A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 
-📌 - [Diagrama da Música](Atividade2_musica.png)
+📌 - [Diagrama da Música](Atividades1_5/Atividade2_musica.png)
 
 
 
@@ -34,8 +34,8 @@ Obras escolhidas:
 
 Para cada obra, foram criadas 3 classes representando elementos principais.
 
-📌 - [Diagrama Vik Muniz](Atividade3_VikMuniz_che.png).
-📌 - [Diagrama Vik Muniz](Atividade3_VikMuniz_mona.png).
+📌 - [Diagrama Vik Muniz](Atividades1_5/Atividade3_VikMuniz_che.png).
+📌 - [Diagrama Vik Muniz](Atividades1_5/Atividade3_VikMuniz_mona.png).
 
 
 
@@ -45,7 +45,7 @@ Imagem escolhida: Picnik Poster (Mauro Martins) 🌍
 
 Classes criadas:
 
-📌 - [Diagrama Doodle](Atividade4_Doodle_picnikPoster.png).
+📌 - [Diagrama Doodle](Atividades1_5/Atividade4_Doodle_picnikPoster.png).
 
 
 
@@ -55,7 +55,7 @@ Vídeo escolhido: “Contra-Filé" - Pedro Luá 🚀
 
 Classes criadas:
 
-📌- [Diagrama Vídeo](Atividade5_video.png).
+📌- [Diagrama Vídeo](Atividades1_5/Atividade5_video.png).
 
 
 
