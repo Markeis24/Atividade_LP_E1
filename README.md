@@ -58,7 +58,7 @@ Vídeo escolhido: “Contra-Filé" - Pedro Luá 🚀
 
 Classes criadas:
 
-📌- [Diagrama Vídeo](video.png).
+📌- [Diagrama Vídeo](Atividade5_video.png).
 
 
 💻 Atividade 6 – Publicação
