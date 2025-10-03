@@ -89,7 +89,7 @@ Aplica a fórmula de cálculo da média.
 
 Exibe o resultado.
 
-📌- [TestedeMesa.java](atividade7/src/TestedeMesa)
+📌- [TestedeMesa.java](atividade7/atividade7/src/TestedeMesa)
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
