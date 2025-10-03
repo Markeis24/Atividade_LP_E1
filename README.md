@@ -1,11 +1,11 @@
-📚 Projeto POO – Atividades
+# 📚 Projeto POO – [Atividades]
 
 Repositório criado para registrar as atividades práticas de Programação Orientada a Objetos, envolvendo teste de mesa, modelagem UML, implementação em Java e interfaces gráficas.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-✅ Atividade 1 – Teste de Mesa
+### ✅ Atividade 1 – [Teste de Mesa]
 
 Foram simulados 10 cenários diferentes usando a fórmula de cálculo da média.
 
@@ -16,9 +16,11 @@ Foram simulados 10 cenários diferentes usando a fórmula de cálculo da média.
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-🎶 Atividade 2 – Música
+### 🎶 Atividade 2 – [Música]
 
-Música escolhida: “Meio Psicopata” – Matanza
+**Música escolhida:** 
+
+-“Meio Psicopata” – Matanza
 
 A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 
@@ -27,9 +29,9 @@ A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-🖼️ Atividade 3 – Imagem (Vik Muniz)
+### 🖼️ Atividade 3 – {Imagem (Vik Muniz)}
 
-Obras escolhidas:
+**Obras escolhidas:**
 
 “Che, à maneira de Alberto Korda”
 
@@ -44,9 +46,11 @@ Para cada obra, foram criadas 3 classes representando elementos principais.
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-🎨 Atividade 4 – Imagem (Doodle)
+### 🎨 Atividade 4 – [Imagem (Doodle)]
 
-Imagem escolhida: Picnik Poster (Mauro Martins) 🌍
+**Imagem escolhida:**
+
+-Picnik Poster (Mauro Martins) 🌍
 
 Classes criadas:
 
@@ -55,27 +59,29 @@ Classes criadas:
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-🎬 Atividade 5 – Vídeo
+### 🎬 Atividade 5 – [Vídeo]
 
-Vídeo escolhido: “Contra-Filé" - Pedro Luá 🚀
+**Vídeo escolhido:**
 
-Classes criadas:
+-“Contra-Filé" - Pedro Luá 🚀
+
+**Classes criadas:**
 
 📌- [Diagrama Vídeo](Atividades1_5/Atividade5_video.png).
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-💻 Atividade 6 – Publicação
+### 💻 Atividade 6 – [Publicação]
 
-Todo o material (códigos + diagramas UML + README) foi publicado neste repositório no GitHub.
+Todo o material **(códigos + diagramas UML + README)** foi publicado neste repositório no GitHub.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-☕ Atividade 7 – Classe Java (Cálculo da Média)
+### ☕ Atividade 7 – [Classe Java (Cálculo da Média)]
 
-Foi implementado um programa em Java que:
+**Foi implementado um programa em Java que:**
 
 Lê as notas implementado dentro do código.
 
@@ -83,12 +89,12 @@ Aplica a fórmula de cálculo da média.
 
 Exibe o resultado.
 
-📌- [TestedeMesa.java](atividade7/src/TestedeMesa)
+📌- [TestedeMesa.java](atividade7/atividade7/src/TestedeMesa)
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-☕ Atividade 8 – Classes Java (Música, Imagem e Vídeo)
+### ☕ Atividade 8 – [Classes Java (Música, Imagem e Vídeo)]
 
 Todas as classes criadas nas atividades 2 a 5 foram implementadas em Java.
 
@@ -97,7 +103,7 @@ Todas as classes criadas nas atividades 2 a 5 foram implementadas em Java.
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-🖥️ Atividade Extra – Interfaces Gráficas
+### 🖥️ Atividade Extra – [Interfaces Gráficas]
 
 Desenvolvidas utilizando SceneBuilder.
 
@@ -108,7 +114,7 @@ Ao clicar, o objeto é instanciado e os dados são gravados em um arquivo CSV.
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-🚀 Tecnologias Utilizadas
+### 🚀 Tecnologias Utilizadas
 
 Java 25 ☕
 
@@ -121,6 +127,6 @@ GitHub – Versionamento e publicação
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-👩‍💻 Autor
+### 👩‍💻 Autor
 
-Atividades desenvolvidas por Giovanna Marques, estudante da FATEC São José dos Campos.
+Atividades desenvolvidas por Giovanna Marques Rodrigues, estudante da FATEC São José dos Campos.
