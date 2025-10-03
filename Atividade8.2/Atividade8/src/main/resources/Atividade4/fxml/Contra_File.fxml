@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Açougueiro">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="23.0" layoutY="14.0" text="Vídeo - Contra-Filé - Pedro Luá">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="49.0" text="Açougueiro" textFill="#237cb8">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="93.0" text="Tipo de carne:" />
+                  <Label layoutX="40.0" layoutY="126.0" text="Cortando:" />
+                  <Label layoutX="40.0" layoutY="158.0" text="Nome:" />
+                  <TextField fx:id="txt_tipoCarneAcougeuiro" layoutX="118.0" layoutY="90.0" onAction="#tipoCarneAcougueiro" promptText="Qual o tipo da carne?" />
+                  <TextField fx:id="txt_nomeAcougueiro" layoutX="78.0" layoutY="154.0" onAction="#nomeAcougueiro" promptText="Qual é o nome?" />
+                  <CheckBox allowIndeterminate="true" layoutX="97.0" layoutY="126.0" mnemonicParsing="false" text="Sim" />
+                  <CheckBox layoutX="153.0" layoutY="126.0" mnemonicParsing="false" text="Não" />
+                  <Button fx:id="btn_enviarAcougueiro" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#enviarAcougueiroCsv" style="-fx-background-color: #237cb8;" text="Enviar" textFill="WHITE" />
+                  <ImageView fitHeight="279.0" fitWidth="346.0" layoutX="282.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Imagens/Screenshots/Captura%20de%20tela%202025-10-01%20113112.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Personagem">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="23.0" layoutY="14.0" text="Vídeo - Contra-Filé - Pedro Luá">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="49.0" text="Personagem" textFill="#237cb8">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="93.0" text="Tempo restante:" />
+                  <Label layoutX="41.0" layoutY="126.0" text="Em fuga:" />
+                  <Label layoutX="40.0" layoutY="158.0" text="Nome:" />
+                  <TextField fx:id="txt_tempoRestantePersonagem" layoutX="132.0" layoutY="89.0" onAction="#tempoRestantePersonagem" prefHeight="26.0" prefWidth="149.0" promptText="Qual é o tempo restante?" />
+                  <TextField fx:id="txt_nomePersonagem" layoutX="83.0" layoutY="154.0" onAction="#nomePersonagem" promptText="Qual é o nome?" />
+                  <CheckBox layoutX="89.0" layoutY="126.0" mnemonicParsing="false" text="Sim" />
+                  <CheckBox layoutX="139.0" layoutY="126.0" mnemonicParsing="false" text="Não" />
+                  <Button fx:id="btn_enviarPersonagem" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#enviarPersonagemCsv" style="-fx-background-color: #237cb8;" text="Enviar" textFill="#f7f4f4" />
+                  <ImageView fitHeight="279.0" fitWidth="346.0" layoutX="282.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Imagens/Screenshots/Captura%20de%20tela%202025-10-01%20113112.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Telefone">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <CheckBox layoutX="109.0" layoutY="93.0" mnemonicParsing="false" text="Sim" />
+                  <CheckBox layoutX="159.0" layoutY="93.0" mnemonicParsing="false" text="Não" />
+                  <Label layoutX="23.0" layoutY="14.0" text="Vídeo - Contra-Filé - Pedro Luá">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font></Label>
+                  <Label layoutX="40.0" layoutY="49.0" text="Telefone" textFill="#237cb8">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font></Label>
+                  <Label layoutX="40.0" layoutY="93.0" text="Conectado:" />
+                  <Label layoutX="41.0" layoutY="126.0" text="Tipo:" />
+                  <Label layoutX="40.0" layoutY="158.0" text="Cor:" />
+                  <TextField fx:id="txt_tipoTelefone" layoutX="76.0" layoutY="122.0" onAction="#tipoTelefone" promptText="Qual é o tipo?" />
+                  <TextField fx:id="txt_corTelefone" layoutX="68.0" layoutY="154.0" onAction="#corTelefone" promptText="Qual é a cor?" />
+                  <Button fx:id="btn_enviarTelefone" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#enviarTelefoneCsv" style="-fx-background-color: #237cb8;" text="Enviar" textFill="WHITE" />
+                  <ImageView fitHeight="279.0" fitWidth="346.0" layoutX="282.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Imagens/Screenshots/Captura%20de%20tela%202025-10-01%20113112.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

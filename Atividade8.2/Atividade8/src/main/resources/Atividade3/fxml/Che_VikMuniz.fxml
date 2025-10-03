@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Feijão">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="23.0" text="Imagem - VikMuniz">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="58.0" text="Che, à maneira de Alberto Korda">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="254.0" fitWidth="236.0" layoutX="319.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/Screenshots/che.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="36.0" layoutY="100.0" text="Feijão" textFill="#b94d1e">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="153.0" text="Quantidade:" />
+                  <Label layoutX="22.0" layoutY="186.0" text="Textura:" />
+                  <Label layoutX="22.0" layoutY="220.0" text="Tipo:" />
+                  <TextField fx:id="txt_qunatidadeFeijao" layoutX="98.0" layoutY="149.0" onAction="#quantidadeFeijao" promptText="Qual é a quantidade?" />
+                  <TextField fx:id="txt_texturaFeijao" layoutX="75.0" layoutY="182.0" onAction="#texturaFeijao" promptText="Qual é a textura?" />
+                  <TextField fx:id="txt_tipoFeijao" layoutX="61.0" layoutY="216.0" onAction="#tipoFeijao" promptText="Qual é o tipo?" />
+                  <Button fx:id="btn_enviarFeijao" layoutX="88.0" layoutY="255.0" mnemonicParsing="false" onAction="#enviarFeijaoCsv" style="-fx-background-color: b94d1e;" text="Enviar" textFill="WHITE" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Molho">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="23.0" text="Imagem - VikMuniz">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="58.0" text="Che, à maneira de Alberto Korda">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="36.0" layoutY="100.0" text="Molho" textFill="#b94d1e">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="153.0" text="Densidade:" />
+                  <Label layoutX="19.0" layoutY="186.0" text="Sabor:" />
+                  <Label layoutX="25.0" layoutY="219.0" text="Cor:" />
+                  <TextField fx:id="txt_densidadeMolho" layoutX="90.0" layoutY="149.0" onAction="#densidadeMolho" promptText="Qual é  a densidade?" />
+                  <TextField fx:id="txt_saborMolho" layoutX="61.0" layoutY="182.0" onAction="#saborMolho" promptText="Qual é o sabor?" />
+                  <TextField fx:id="txt_corMolho" layoutX="53.0" layoutY="215.0" onAction="#corMolho" promptText="Qual é a cor?" />
+                  <Button fx:id="btn_enviarMolho" layoutX="88.0" layoutY="255.0" mnemonicParsing="false" onAction="#enviarMolhoCsv" style="-fx-background-color: b94d1e;" text="Enviar" textFill="WHITE" />
+                  <ImageView fitHeight="254.0" fitWidth="236.0" layoutX="319.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/Screenshots/che.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Retrato">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="23.0" text="Imagem - VikMuniz">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="58.0" text="Che, à maneira de Alberto Korda">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="36.0" layoutY="100.0" text="Retrato" textFill="#b94d1e">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="153.0" text="Material base:" />
+                  <Label layoutX="22.0" layoutY="186.0" text="Contraste:" />
+                  <Label layoutX="24.0" layoutY="219.0" text="Rosto:" />
+                  <TextField fx:id="txt_materialBaseRetrato" layoutX="107.0" layoutY="149.0" onAction="#materialBaseRetrato" promptText="Qual é o material base?" />
+                  <TextField fx:id="txt_contrasteRetrato" layoutX="83.0" layoutY="182.0" onAction="#contrasteRetrato" promptText="Qual é o contraste?" />
+                  <TextField fx:id="txt_rostoRetrato" layoutX="68.0" layoutY="215.0" onAction="#rostoRetrato" promptText="De quem é o rosto?" />
+                  <ImageView fitHeight="254.0" fitWidth="236.0" layoutX="319.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/Screenshots/che.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btn_enviarRetrato" layoutX="88.0" layoutY="255.0" mnemonicParsing="false" onAction="#enviarRetratoCsv" style="-fx-background-color: b94d1e;" text="Enviar" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>
