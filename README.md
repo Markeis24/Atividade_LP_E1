@@ -39,6 +39,8 @@ A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 
 “Double Mona Lisa (Penaut butter and jelly)”
 
+![descrição](https://th.bing.com/th/id/R.9c3551c53fb3711095fe78eb4a524bae?rik=yyzlJ1Yvqx2p3g&riu=http%3a%2f%2f2.bp.blogspot.com%2f-e4SwP-hCChk%2fUHMtY71CPuI%2fAAAAAAAABUk%2fX83-C9ksjmo%2fs1600%2fVik_muniz_1.jpg&ehk=ICXjtnPh3l%2fMAT2L8H%2bpXEQ%2fX7TtzajwLe0JX4%2fEIM4%3d&risl=&pid=ImgRaw&r=0).
+
 Para cada obra, foram criadas 3 classes representando elementos principais.
 
 📌 - [Diagrama Vik Muniz](Atividades1_5/Atividade3_VikMuniz_che.png).
