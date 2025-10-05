@@ -111,7 +111,7 @@ Cada interface possui campos para entrada dos atributos e um botão Salvar.
 
 Ao clicar, o objeto é instanciado e os dados são gravados em um arquivo CSV.
 
-📌- [Implementação SceneBuilder](Atividades8.2/Atividade8).
+📌- [Implementação SceneBuilder](https://github.com/Markeis24/Atividade_LP_E1/tree/main/Atividade8.2/Atividade8/src/main).
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
