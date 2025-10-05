@@ -1,4 +1,4 @@
-# 📚 Projeto POO – [Atividades]
+# 📚 Entrega 1 – [Atividades]
 
 Repositório criado para registrar as atividades práticas de Programação Orientada a Objetos, envolvendo teste de mesa, modelagem UML, implementação em Java e interfaces gráficas.
 
