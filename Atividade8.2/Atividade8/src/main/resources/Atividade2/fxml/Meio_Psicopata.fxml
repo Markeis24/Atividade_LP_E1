@@ -11,94 +11,94 @@
 <?import javafx.scene.text.Font?>
 
 <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Atividade2.Meio_PsicopataController">
-  <tabs>
-    <Tab text="Cerveja">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-               <children>
-                  <Label layoutX="23.0" layoutY="14.0" text="Música - Meio Psicopata - Matanza">
-                     <font>
-                        <Font name="System Bold Italic" size="24.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="40.0" layoutY="49.0" text="Cerveja" textFill="#c10000">
-                     <font>
-                        <Font name="System Bold" size="22.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="40.0" layoutY="93.0" text="Quantidade:" />
-                  <Label layoutX="41.0" layoutY="126.0" text="Temperatura:" />
-                  <Label layoutX="40.0" layoutY="158.0" text="Marca:" />
-                  <TextField fx:id="txt_quantidadeCerveja" layoutX="112.0" layoutY="89.0" onAction="#quantidadeCerveja" promptText="Qual é a quantidade?" />
-                  <TextField fx:id="txt_temperaturaCerveja" layoutX="117.0" layoutY="122.0" onAction="#temperaturaCerveja" promptText="Qual é a temperatura?" />
-                  <TextField fx:id="txt_marcaCerveja" layoutX="79.0" layoutY="154.0" onAction="#marcaCerveja" promptText="Qual é a marca?" />
-                  <Button fx:id="btn_enviarCerveja" layoutX="80.0" layoutY="195.0" mnemonicParsing="false" onAction="#enviarRespostaCerveja" style="-fx-background-color: #c10000;" text="Enviar" textFill="WHITE" />
-                  <ImageView fitHeight="233.0" fitWidth="279.0" layoutX="300.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../../../../../../../../Imagens/Screenshots/meio.png" />
-                     </image>
-                  </ImageView>
-               </children></AnchorPane>
-      </content>
-    </Tab>
-    <Tab text="Confusão">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-               <children>
-                  <Label layoutX="23.0" layoutY="14.0" text="Música - Meio Psicopata - Matanza">
-                     <font>
-                        <Font name="System Bold Italic" size="24.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="40.0" layoutY="49.0" text="Confusão" textFill="#c10000">
-                     <font>
-                        <Font name="System Bold" size="22.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="40.0" layoutY="93.0" text="Briga:" />
-                  <Label layoutX="41.0" layoutY="126.0" text="Motivo:" />
-                  <Label layoutX="41.0" layoutY="158.0" text="Lugar:" />
-                  <TextField fx:id="txt_brigaConfusao" layoutX="74.0" layoutY="89.0" onAction="#brigaConfusao" promptText="Qual é a briga?" />
-                  <TextField fx:id="txt_motivoConfusao" layoutX="91.0" layoutY="122.0" onAction="#motivoConfusao" promptText="Qual é o motivo?" />
-                  <TextField fx:id="txt_lugarConfusao" layoutX="82.0" layoutY="154.0" onAction="#lugarConfusao" promptText="Qual é o lugar?" />
-                  <Button fx:id="btn_enviarConfusao" layoutX="80.0" layoutY="195.0" mnemonicParsing="false" onAction="#enviarConfusaoCsv" style="-fx-background-color: #c10000;" text="Enviar" textFill="WHITE" />
-                  <ImageView fitHeight="233.0" fitWidth="279.0" layoutX="300.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../../../../../../../../Imagens/Screenshots/meio.png" />
-                     </image>
-                  </ImageView>
-               </children></AnchorPane>
-      </content>
-    </Tab>
-      <Tab text="Vaga">
-        <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-               <children>
-                  <Label layoutX="23.0" layoutY="14.0" text="Música - Meio Psicopata - Matanza">
-                     <font>
-                        <Font name="System Bold Italic" size="24.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="40.0" layoutY="49.0" text="Vaga" textFill="#c10000">
-                     <font>
-                        <Font name="System Bold" size="22.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="40.0" layoutY="93.0" text="Ameaça:" />
-                  <Label layoutX="40.0" layoutY="123.0" text="Carro:" />
-                  <Label layoutX="40.0" layoutY="153.0" text="Dono:" />
-                  <TextField fx:id="txt_ameacaVaga" layoutX="92.0" layoutY="89.0" onAction="#ameacaVaga" promptText="Qual é a ameaça?" />
-                  <TextField fx:id="txt_carroVaga" layoutX="79.0" layoutY="119.0" onAction="#carroVaga" promptText="Qual é o carro?" />
-                  <TextField fx:id="txt_donoVaga" layoutX="80.0" layoutY="149.0" onAction="#donoVaga" promptText="Quem é o dono?" />
-                  <Button layoutX="80.0" layoutY="195.0" mnemonicParsing="false" style="-fx-background-color: #c10000;" text="Enviar" textFill="WHITE" />
-                  <ImageView fitHeight="233.0" fitWidth="279.0" layoutX="300.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../../../../../../../../Imagens/Screenshots/meio.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-        </content>
-      </Tab>
-  </tabs>
+    <tabs>
+        <Tab text="Cerveja">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Label layoutX="23.0" layoutY="14.0" text="Música - Meio Psicopata - Matanza">
+                            <font>
+                                <Font name="System Bold Italic" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="49.0" text="Cerveja" textFill="#c10000">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="93.0" text="Quantidade:" />
+                        <Label layoutX="41.0" layoutY="126.0" text="Temperatura:" />
+                        <Label layoutX="40.0" layoutY="158.0" text="Marca:" />
+                        <TextField fx:id="txt_quantidadeCerveja" layoutX="112.0" layoutY="89.0" promptText="Qual é a quantidade?" />
+                        <TextField fx:id="txt_temperaturaCerveja" layoutX="117.0" layoutY="122.0" promptText="Qual é a temperatura?" />
+                        <TextField fx:id="txt_marcaCerveja" layoutX="79.0" layoutY="154.0" promptText="Qual é a marca?" />
+                        <Button fx:id="btn_enviarCerveja" layoutX="80.0" layoutY="195.0" mnemonicParsing="false" onAction="#enviarRespostaCerveja" style="-fx-background-color: #c10000;" text="Enviar" textFill="WHITE" />
+                        <ImageView fitHeight="233.0" fitWidth="279.0" layoutX="300.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../../../../../../../../Imagens/Screenshots/meio.png" />
+                            </image>
+                        </ImageView>
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Confusão">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Label layoutX="23.0" layoutY="14.0" text="Música - Meio Psicopata - Matanza">
+                            <font>
+                                <Font name="System Bold Italic" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="49.0" text="Confusão" textFill="#c10000">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="93.0" text="Briga:" />
+                        <Label layoutX="41.0" layoutY="126.0" text="Motivo:" />
+                        <Label layoutX="41.0" layoutY="158.0" text="Lugar:" />
+                        <TextField fx:id="txt_brigaConfusao" layoutX="74.0" layoutY="89.0" promptText="Qual é a briga?" />
+                        <TextField fx:id="txt_motivoConfusao" layoutX="91.0" layoutY="122.0" promptText="Qual é o motivo?" />
+                        <TextField fx:id="txt_lugarConfusao" layoutX="82.0" layoutY="154.0" promptText="Qual é o lugar?" />
+                        <Button fx:id="btn_enviarConfusao" layoutX="80.0" layoutY="195.0" mnemonicParsing="false" onAction="#enviarConfusaoCsv" style="-fx-background-color: #c10000;" text="Enviar" textFill="WHITE" />
+                        <ImageView fitHeight="233.0" fitWidth="279.0" layoutX="300.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../../../../../../../../Imagens/Screenshots/meio.png" />
+                            </image>
+                        </ImageView>
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Vaga">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Label layoutX="23.0" layoutY="14.0" text="Música - Meio Psicopata - Matanza">
+                            <font>
+                                <Font name="System Bold Italic" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="49.0" text="Vaga" textFill="#c10000">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="93.0" text="Ameaça:" />
+                        <Label layoutX="40.0" layoutY="123.0" text="Carro:" />
+                        <Label layoutX="40.0" layoutY="153.0" text="Dono:" />
+                        <TextField fx:id="txt_ameacaVaga" layoutX="92.0" layoutY="89.0" promptText="Qual é a ameaça?" />
+                        <TextField fx:id="txt_carroVaga" layoutX="79.0" layoutY="119.0" promptText="Qual é o carro?" />
+                        <TextField fx:id="txt_donoVaga" layoutX="80.0" layoutY="149.0" promptText="Quem é o dono?" />
+                        <Button fx:id="btnVaga" layoutX="80.0" layoutY="195.0" mnemonicParsing="false" onAction="#enviarCsvVaga" style="-fx-background-color: #c10000;" text="Enviar" textFill="WHITE" />
+                        <ImageView fitHeight="233.0" fitWidth="279.0" layoutX="300.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../../../../../../../../Imagens/Screenshots/meio.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
 </TabPane>

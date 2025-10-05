@@ -1,4 +1,4 @@
-package Atividade4;
+package Atividade3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -9,12 +9,12 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
-public class App4 extends Application {
+public class App2 extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
         // Verifica se o arquivo FXML está sendo encontrado no classpath
-        URL fxmlPath = getClass().getResource("/Atividade4/fxml/Contra_File.fxml");
+        URL fxmlPath = getClass().getResource("/Atividade3/fxml/Che_VikMuniz.fxml");
         System.out.println("🔎 Caminho encontrado: " + fxmlPath);
 
         // Se não encontrou, lança um erro mais claro
@@ -28,7 +28,7 @@ public class App4 extends Application {
 
         // Cria a cena
         Scene scene = new Scene(root, 800, 600);
-        stage.setTitle("Tela Contra File");
+        stage.setTitle("Tela Che VikMuniz");
         stage.setScene(scene);
         stage.show();
     }
