@@ -35,11 +35,11 @@ A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 
 “Che, à maneira de Alberto Korda”
 
-![descrição](https://th.bing.com/th/id/R.2c6493048429aef7a82e7bbb66e126d9?rik=lSYDm6t%2fvLrV3w&pid=ImgRaw&r=0).
+<img src="https://th.bing.com/th/id/R.2c6493048429aef7a82e7bbb66e126d9?rik=lSYDm6t%2fvLrV3w&pid=ImgRaw&r=0" alt="Imagem Che" width="400">
 
 “Double Mona Lisa (Penaut butter and jelly)”
 
-![descrição](https://th.bing.com/th/id/R.9c3551c53fb3711095fe78eb4a524bae?rik=yyzlJ1Yvqx2p3g&riu=http%3a%2f%2f2.bp.blogspot.com%2f-e4SwP-hCChk%2fUHMtY71CPuI%2fAAAAAAAABUk%2fX83-C9ksjmo%2fs1600%2fVik_muniz_1.jpg&ehk=ICXjtnPh3l%2fMAT2L8H%2bpXEQ%2fX7TtzajwLe0JX4%2fEIM4%3d&risl=&pid=ImgRaw&r=0).
+<img src="https://th.bing.com/th/id/R.9c3551c53fb3711095fe78eb4a524bae?rik=yyzlJ1Yvqx2p3g&riu=http%3a%2f%2f2.bp.blogspot.com%2f-e4SwP-hCChk%2fUHMtY71CPuI%2fAAAAAAAABUk%2fX83-C9ksjmo%2fs1600%2fVik_muniz_1.jpg&ehk=ICXjtnPh3l%2fMAT2L8H%2bpXEQ%2fX7TtzajwLe0JX4%2fEIM4%3d&risl=&pid=ImgRaw&r=0" alt="Imagem Mona" width="400">
 
 Para cada obra, foram criadas 3 classes representando elementos principais.
 
@@ -56,6 +56,8 @@ Para cada obra, foram criadas 3 classes representando elementos principais.
 
 -Picnik Poster (Mauro Martins) 🌍
 
+<img src="https://static.wixstatic.com/media/c097a7_08a7c015f1364d6fb727d1c7fc1aa529~mv2.jpg/v1/fill/w_954,h_680,al_c,q_85,enc_avif,quality_auto/c097a7_08a7c015f1364d6fb727d1c7fc1aa529~mv2.jpg" alt="Imagem Picnik" width="400">
+
 Classes criadas:
 
 📌 - [Diagrama Doodle](Atividades1_5/Atividade4_Doodle_picnikPoster.png).
@@ -68,6 +70,8 @@ Classes criadas:
 **Vídeo escolhido:**
 
 -“Contra-Filé" - Pedro Luá 🚀
+
+<img src="https://safezonegames.com/wp-content/uploads/2023/02/contra.jpg" alt="Imagem Contra-File" width="400">
 
 **Classes criadas:**
 
