@@ -35,6 +35,8 @@ A partir dela, criei 3 classes com cada uma tendo 3 atributos e um método.
 
 “Che, à maneira de Alberto Korda”
 
+![descrição](https://th.bing.com/th/id/R.2c6493048429aef7a82e7bbb66e126d9?rik=lSYDm6t%2fvLrV3w&pid=ImgRaw&r=0).
+
 “Double Mona Lisa (Penaut butter and jelly)”
 
 Para cada obra, foram criadas 3 classes representando elementos principais.
