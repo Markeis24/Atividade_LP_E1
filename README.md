@@ -20,7 +20,7 @@ Foram simulados 10 cenários diferentes usando a fórmula de cálculo da média.
 
 **Música escolhida:** 
 
--“Meio Psicopata” – Matanza
+-“Meio Psicopata” – Matanza 🎵
 
 <img src="https://th.bing.com/th/id/R.33bcbf0a064ce390ddea75bb1f1828da?rik=7JxBLi24WMDfrw&pid=ImgRaw&r=0" alt="Imagem Matanza" width="200">
 
@@ -57,7 +57,7 @@ Para cada obra, foram criadas 3 classes representando elementos principais.
 
 **Imagem escolhida:**
 
--Picnik Poster (Mauro Martins) 🌍
+-Picnik Poster (Mauro Martins) 🍉
 
 <img src="https://static.wixstatic.com/media/c097a7_08a7c015f1364d6fb727d1c7fc1aa529~mv2.jpg/v1/fill/w_954,h_680,al_c,q_85,enc_avif,quality_auto/c097a7_08a7c015f1364d6fb727d1c7fc1aa529~mv2.jpg" alt="Imagem Picnik" width="200">
 
@@ -72,7 +72,7 @@ Classes criadas:
 
 **Vídeo escolhido:**
 
--“Contra-Filé" - Pedro Luá 🚀
+-“Contra-Filé" - Pedro Luá 🥩
 
 <img src="https://safezonegames.com/wp-content/uploads/2023/02/contra.jpg" alt="Imagem Contra-File" width="200">
 
