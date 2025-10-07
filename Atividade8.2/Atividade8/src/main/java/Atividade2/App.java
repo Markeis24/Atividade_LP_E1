@@ -16,7 +16,7 @@ public class App extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/Atividade2/fxml/Meio_Psicopata.fxml"));
         Parent root = fxmlLoader.load();
 
-        Scene scene = new Scene(root, 800, 600); // ajuste o tamanho da janela
+        Scene scene = new Scene(root, 600, 400); // ajuste o tamanho da janela
         stage.setTitle("Tela Meio Psicopata");
         stage.setScene(scene);
         stage.show();

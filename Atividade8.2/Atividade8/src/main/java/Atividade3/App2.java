@@ -27,7 +27,7 @@ public class App2 extends Application {
         Parent root = fxmlLoader.load();
 
         // Cria a cena
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root, 600, 400);
         stage.setTitle("Tela Che VikMuniz");
         stage.setScene(scene);
         stage.show();

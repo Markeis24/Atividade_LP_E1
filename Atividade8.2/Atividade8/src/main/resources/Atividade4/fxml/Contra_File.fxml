@@ -36,7 +36,7 @@
                         <Button fx:id="btn_enviarAcougueiro" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#enviarAcougueiroCsv" style="-fx-background-color: #237cb8;" text="Enviar" textFill="WHITE" />
                         <ImageView fitHeight="279.0" fitWidth="346.0" layoutX="282.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../../Imagens/Screenshots/Captura%20de%20tela%202025-10-01%20113112.png" />
+                                <Image url="@contra.png" />
                             </image>
                         </ImageView>
                         <RadioButton fx:id="sim" layoutX="110.0" layoutY="126.0" mnemonicParsing="false" text="Sim">
@@ -70,7 +70,7 @@
                         <Button fx:id="btn_enviarPersonagem" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#enviarPersonagemCsv" style="-fx-background-color: #237cb8;" text="Enviar" textFill="#f7f4f4" />
                         <ImageView fitHeight="279.0" fitWidth="346.0" layoutX="282.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../../Imagens/Screenshots/Captura%20de%20tela%202025-10-01%20113112.png" />
+                                <Image url="@contra.png" />
                             </image>
                         </ImageView>
                         <RadioButton fx:id="sim" layoutX="104.0" layoutY="126.0" mnemonicParsing="false" text="sim">
@@ -102,7 +102,7 @@
                         <Button fx:id="btn_enviarTelefone" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" onAction="#enviarTelefoneCsv" style="-fx-background-color: #237cb8;" text="Enviar" textFill="WHITE" />
                         <ImageView fitHeight="279.0" fitWidth="346.0" layoutX="282.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../../Imagens/Screenshots/Captura%20de%20tela%202025-10-01%20113112.png" />
+                                <Image url="@contra.png" />
                             </image>
                         </ImageView>
                         <RadioButton fx:id="sim" layoutX="110.0" layoutY="93.0" mnemonicParsing="false" text="sim">

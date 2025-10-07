@@ -28,7 +28,7 @@
                         </Label>
                         <ImageView fitHeight="254.0" fitWidth="236.0" layoutX="319.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../Imagens/Screenshots/che.png" />
+                                <Image url="@che.png" />
                             </image>
                         </ImageView>
                         <Label layoutX="36.0" layoutY="100.0" text="Feijão" textFill="#b94d1e">
@@ -74,7 +74,7 @@
                         <Button fx:id="btn_enviarMolho" layoutX="88.0" layoutY="255.0" mnemonicParsing="false" onAction="#enviarMolhoCsv" style="-fx-background-color: b94d1e;" text="Enviar" textFill="WHITE" />
                         <ImageView fitHeight="254.0" fitWidth="236.0" layoutX="319.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../Imagens/Screenshots/che.png" />
+                                <Image url="@che.png" />
                             </image>
                         </ImageView>
                     </children></AnchorPane>
@@ -107,7 +107,7 @@
                         <TextField fx:id="txt_rostoRetrato" layoutX="68.0" layoutY="215.0" onAction="#rostoRetrato" promptText="De quem é o rosto?" />
                         <ImageView fitHeight="254.0" fitWidth="236.0" layoutX="319.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../Imagens/Screenshots/che.png" />
+                                <Image url="@che.png" />
                             </image>
                         </ImageView>
                         <Button fx:id="btn_enviarRetrato" layoutX="88.0" layoutY="255.0" mnemonicParsing="false" onAction="#enviarRetratoCsv" style="-fx-background-color: b94d1e;" text="Enviar" textFill="WHITE" />
