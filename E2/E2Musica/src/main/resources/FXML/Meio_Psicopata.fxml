@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="E2.Controller.Meio_PsicopataController">
+    <children>
+        <ImageView fitHeight="700.0" fitWidth="914.0" layoutX="-14.0">
+            <image>
+                <Image url="@fundo.gif" />
+            </image>
+        </ImageView>
+
+        <TabPane layoutX="19.0" layoutY="108.0" prefHeight="572.0" prefWidth="866.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+
+                <!-- CERVEJA -->
+                <Tab text="Cerveja">
+                    <content>
+                        <AnchorPane style="-fx-background-color: #ffff;">
+                     <ImageView fitHeight="544.0" fitWidth="866.0" layoutX="1.0" opacity="0.5" pickOnBounds="true">
+                        <image>
+                           <Image url="@fundob.jpg" />
+                        </image>
+                     </ImageView>
+                            <Label layoutX="59.0" layoutY="103.0" text="Quantidade:">
+                                <font>
+                                    <Font name="Californian FB" size="20.0" />
+                                </font>
+                            </Label>
+                            <TextField fx:id="txtQtdCerveja" layoutX="163.0" layoutY="102.0" prefHeight="26.0" prefWidth="154.0" promptText="ex: 6" />
+                            <Label layoutX="59.0" layoutY="148.0" prefHeight="30.0" prefWidth="119.0" text="Temperatura:">
+                                <font>
+                                    <Font name="Californian FB" size="20" />
+                                </font>
+                            </Label>
+                            <TextField fx:id="txtTempCerveja" layoutX="171.0" layoutY="150.0" prefHeight="26.0" prefWidth="144.0" promptText="ex: 12°C" />
+                            <Label layoutX="59.0" layoutY="200.0" text="Marca:">
+                                <font>
+                                    <Font name="Californian FB" size="20" />
+                                </font>
+                            </Label>
+                            <TextField fx:id="txtMarcaCerveja" layoutX="119.0" layoutY="199.0" prefHeight="26.0" prefWidth="145.0" promptText="ex: Brahma" />
+                            <Button layoutX="180.0" layoutY="249.0" onAction="#inserirCerveja" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #9b111e; -fx-border-color: #ffff;" text="Inserir" textFill="WHITE">
+                        <font>
+                           <Font name="Californian FB Bold" size="12.0" />
+                        </font>
+                            </Button>
+                            <Button layoutX="568.0" layoutY="379.0" onAction="#atualizarCerveja" prefHeight="32.0" prefWidth="72.0" style="-fx-background-color: #a20202; -fx-border-color: #ffff;" text="Atualizar" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                            <Button layoutX="325.0" layoutY="249.0" onAction="#excluirCerveja" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #be2929; -fx-border-color: #ffff;" text="Excluir" textFill="WHITE">
+                            <font>
+                                <Font name="Californian FB Bold" size="12.0" />
+                            </font>
+                        </Button>
+                            <Button layoutX="573.0" layoutY="444.0" onAction="#buscarCerveja" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #a20202; -fx-border-color: #ffff;" text="Buscar" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9b111e" height="240.0" layoutX="59.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="468.0" />
+
+                            <TableView fx:id="tableCerveja" layoutX="67.0" layoutY="302.0" prefHeight="222.0" prefWidth="453.0">
+                                <columns>
+                                    <TableColumn fx:id="colIdCerveja" text="ID" visible="false" />
+                                    <TableColumn fx:id="colQtdCerveja" text="Quantidade" />
+                                    <TableColumn fx:id="colTempCerveja" text="Temperatura" />
+                                    <TableColumn fx:id="colMarcaCerveja" text="Marca" />
+                                </columns>
+                            </TableView>
+                     <ImageView fitHeight="305.0" fitWidth="329.0" layoutX="544.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@meio.png" />
+                        </image>
+                     </ImageView>
+                     <Label layoutX="180.0" layoutY="39.0" text="CERVEJA" textFill="#5e1414">
+                        <font>
+                           <Font name="Californian FB Bold" size="42.0" />
+                        </font>
+                     </Label>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+
+                <!-- CONFUSÃO -->
+                <Tab text="Confusão">
+                    <content>
+                        <AnchorPane style="-fx-background-color: #ffff;">
+                     <ImageView fitHeight="544.0" fitWidth="866.0" layoutX="-1.0" opacity="0.5" pickOnBounds="true">
+                        <image>
+                           <Image url="@fundob.jpg" />
+                        </image>
+                     </ImageView>
+                            <Label layoutX="59.0" layoutY="103.0" text="Briga:">
+                                <font>
+                                    <Font name="Californian FB" size="20" />
+                            </font>
+                            </Label>
+                            <TextField fx:id="txtBriga" layoutX="109.0" layoutY="102.0" prefHeight="26.0" prefWidth="154.0" promptText="ex: Socos" />
+                            <Label layoutX="59.0" layoutY="148.0" text="Motivo:">
+                                <font>
+                                    <Font name="Californian FB" size="20" />
+                            </font>
+                            </Label>
+                            <TextField fx:id="txtMotivo" layoutX="126.0" layoutY="149.0" prefHeight="28.0" prefWidth="153.0" promptText="ex: Vaga" />
+                            <Label layoutX="61.0" layoutY="193.0" text="Lugar:">
+                                <font>
+                                    <Font name="Californian FB" size="20" />
+                                </font>
+                            </Label>
+                            <TextField fx:id="txtLugar" layoutX="117.0" layoutY="192.0" prefHeight="26.0" prefWidth="156.0" promptText="ex: Rua" />
+                            <Button layoutX="180.0" layoutY="249.0" onAction="#inserirConfusao" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #9b111e; -fx-border-color: #ffff;" text="Inserir" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                            <Button layoutX="573.0" layoutY="379.0" onAction="#atualizarConfusao" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #a20202; -fx-border-color: #ffff;" text="Atualizar" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                            <Button layoutX="325.0" layoutY="249.0" onAction="#excluirConfusao" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #be2929; -fx-border-color: #ffff;" text="Excluir" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                            <Button layoutX="573.0" layoutY="444.0" onAction="#buscarConfusao" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #a20202; -fx-border-color: #ffff;" text="Buscar" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9b111e" height="240.0" layoutX="59.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="468.0" />
+                            <TableView fx:id="tableConfusao" layoutX="67.0" layoutY="302.0" prefHeight="222.0" prefWidth="453.0">
+                                <columns>
+                                    <TableColumn fx:id="colIdConfusao" text="ID" visible="false" />
+                                    <TableColumn fx:id="colBriga" text="Briga" />
+                                    <TableColumn fx:id="colMotivo" text="Motivo" />
+                                    <TableColumn fx:id="colLugar" text="Lugar" />
+                                </columns>
+                            </TableView>
+                     <ImageView fitHeight="305.0" fitWidth="329.0" layoutX="544.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@meio.png" />
+                        </image>
+                     </ImageView>
+                     <Label layoutX="180.0" layoutY="29.0" text="CONFUSÃO" textFill="#5e1414">
+                         <font>
+                             <Font name="Californian FB Bold" size="42.0" />
+                         </font>
+                     </Label>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+
+                <!-- VAGA -->
+                <Tab text="Vaga">
+                    <content>
+                        <AnchorPane style="-fx-background-color: #ffff;">
+                     <ImageView fitHeight="546.0" fitWidth="866.0" layoutX="-1.0" layoutY="-2.0" opacity="0.5" pickOnBounds="true">
+                        <image>
+                           <Image url="@fundob.jpg" />
+                        </image>
+                     </ImageView>
+                            <Label layoutX="59.0" layoutY="103.0" text="Ameaça:">
+                                <font><Font name="Californian FB" size="20" />
+                                </font>
+                            </Label>
+                            <TextField fx:id="txtAmeaca" layoutX="131.0" layoutY="102.0" prefHeight="26.0" prefWidth="156.0" promptText="ex: Morte" />
+                            <Label layoutX="59.0" layoutY="148.0" text="Carro:">
+                                <font>
+                                    <Font name="Californian FB" size="20" />
+                                </font>
+                            </Label>
+                            <TextField fx:id="txtCarro" layoutX="114.0" layoutY="147.0" prefHeight="26.0" prefWidth="153.0" promptText="ex: Picape" />
+                            <Label layoutX="59.0" layoutY="193.0" text="Dono:">
+                                <font>
+                                    <Font name="Californian FB" size="20" />
+                            </font>
+                            </Label>
+                            <TextField fx:id="txtDono" layoutX="111.0" layoutY="192.0" prefHeight="26.0" prefWidth="154.0" promptText="ex: Marcelo" />
+                            <Button layoutX="180.0" layoutY="249.0" onAction="#inserirVaga" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #9b111e; -fx-border-color: #ffff;" text="Inserir" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                            <Button layoutX="573.0" layoutY="379.0" onAction="#atualizarVaga" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: #a20202; -fx-border-color: #ffff;" text="Atualizar" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                            <Button layoutX="325.0" layoutY="249.0" onAction="#excluirVaga" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #be2929; -fx-border-color: #ffff;" text="Excluir" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                            <Button layoutX="573.0" layoutY="444.0" onAction="#buscarVaga" prefHeight="32.0" prefWidth="61.0" style="-fx-background-color: #a20202; -fx-border-color: #ffff;" text="Buscar" textFill="WHITE">
+                                <font>
+                                    <Font name="Californian FB Bold Italic" size="12.0" />
+                                </font>
+                            </Button>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9b111e" height="240.0" layoutX="59.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="468.0" />
+                            <TableView fx:id="tableVaga" layoutX="67.0" layoutY="302.0" prefHeight="222.0" prefWidth="453.0">
+                                <columns>
+                                    <TableColumn fx:id="colIdVaga" text="ID" visible="false" />
+                                    <TableColumn fx:id="colAmeaca" text="Ameaça" />
+                                    <TableColumn fx:id="colCarro" text="Carro" />
+                                    <TableColumn fx:id="colDono" text="Dono" />
+                                </columns>
+                            </TableView>
+                     <ImageView fitHeight="305.0" fitWidth="329.0" layoutX="544.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@meio.png" />
+                        </image>
+                     </ImageView>
+                     <Label layoutX="180.0" layoutY="29.0" text="VAGA" textFill="#5e1414">
+                         <font>
+                             <Font name="Californian FB Bold" size="42.0" />
+                         </font>
+                     </Label>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+
+            </tabs>
+        </TabPane>
+      <ImageView fitHeight="129.0" fitWidth="390.0" layoutX="309.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Matanza.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
