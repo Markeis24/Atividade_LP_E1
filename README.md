@@ -126,6 +126,31 @@ Ao clicar, o objeto é instanciado e os dados são gravados em um arquivo CSV.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+# 📚 Entrega 2 – [Atividades]
+
+Repositório criado para registrar as atividades práticas de Programação Orientada a Objetos envolvendo Banco de Dados.
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### ✅ Atividade 1 – [CRUD]
+
+Foi adicionado o método CRUD na atividade 2 da E1.
+
+**Música escolhida:** 
+
+-“Meio Psicopata” – Matanza 🎵
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdemj6remgQ2OJXukBG-A9xWjp0enxrcYBNA&s" alt="Imagem Matanza" width="400">
+
+
+📌- [Atividade 1 – CRUD](E2/E2Musica)
+
+📊 O código foi reformulado junto ao design feito no SceneBuilder.
+
+
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 
 ### 🚀 Tecnologias Utilizadas
 
@@ -138,6 +163,8 @@ ________________________________________________________________________________
 - 🎨 **SceneBuilder** — Criação das interfaces gráficas (JavaFX)  
 
 - 🐙 **GitHub** — Controle de versão e publicação dos projetos
+
+- 🛢️ **MySQL** — Sistema de gerenciamento de banco de dados relacional usado para armazenamento e manipulação dos dados do aplicativo
 
 ---
 
